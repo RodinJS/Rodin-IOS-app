@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186A5EFF1E24E4700014464F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A5EFE1E24E4700014464F /* main.m */; };
+		186A5F021E24E4700014464F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A5F011E24E4700014464F /* AppDelegate.m */; };
+		186A5F081E24E4700014464F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186A5F061E24E4700014464F /* Main.storyboard */; };
+		186A5F0A1E24E4700014464F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186A5F091E24E4700014464F /* Assets.xcassets */; };
+		186A5F0D1E24E4700014464F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186A5F0B1E24E4700014464F /* LaunchScreen.storyboard */; };
+		186A5F181E24E4700014464F /* RodinAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A5F171E24E4700014464F /* RodinAppTests.m */; };
+		186A5F231E24E4700014464F /* RodinAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A5F221E24E4700014464F /* RodinAppUITests.m */; };
+		186A5F321E24F5EB0014464F /* WEBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A5F311E24F5EB0014464F /* WEBViewController.m */; };
+		18FDACE01E27B74E002D70D0 /* 404.html in Resources */ = {isa = PBXBuildFile; fileRef = 18FDACD51E27B74E002D70D0 /* 404.html */; };
+		18FDACE11E27B74E002D70D0 /* apple-touch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FDACD81E27B74E002D70D0 /* apple-touch-icon.png */; };
+		18FDACE21E27B74E002D70D0 /* browserconfig.xml in Resources */ = {isa = PBXBuildFile; fileRef = 18FDACD91E27B74E002D70D0 /* browserconfig.xml */; };
+		18FDACE31E27B74E002D70D0 /* favicon-16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FDACDA1E27B74E002D70D0 /* favicon-16x16.png */; };
+		18FDACE41E27B74E002D70D0 /* favicon-32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FDACDB1E27B74E002D70D0 /* favicon-32x32.png */; };
+		18FDACE51E27B74E002D70D0 /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 18FDACDC1E27B74E002D70D0 /* favicon.ico */; };
+		18FDACE61E27B74E002D70D0 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 18FDACDD1E27B74E002D70D0 /* manifest.json */; };
+		18FDACE71E27B74E002D70D0 /* mstile-150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FDACDE1E27B74E002D70D0 /* mstile-150x150.png */; };
+		18FDACE81E27B74E002D70D0 /* safari-pinned-tab.svg in Resources */ = {isa = PBXBuildFile; fileRef = 18FDACDF1E27B74E002D70D0 /* safari-pinned-tab.svg */; };
+		18FDACEA1E27BBA1002D70D0 /* nointernet.html in Resources */ = {isa = PBXBuildFile; fileRef = 18FDACE91E27BBA1002D70D0 /* nointernet.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		186A5F141E24E4700014464F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186A5EF21E24E46F0014464F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186A5EF91E24E46F0014464F;
+			remoteInfo = RodinApp;
+		};
+		186A5F1F1E24E4700014464F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186A5EF21E24E46F0014464F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186A5EF91E24E46F0014464F;
+			remoteInfo = RodinApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		186A5EFA1E24E4700014464F /* RodinApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RodinApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186A5EFE1E24E4700014464F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		186A5F001E24E4700014464F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		186A5F011E24E4700014464F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		186A5F071E24E4700014464F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		186A5F091E24E4700014464F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		186A5F0C1E24E4700014464F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		186A5F0E1E24E4700014464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186A5F131E24E4700014464F /* RodinAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RodinAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186A5F171E24E4700014464F /* RodinAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RodinAppTests.m; sourceTree = "<group>"; };
+		186A5F191E24E4700014464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186A5F1E1E24E4700014464F /* RodinAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RodinAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186A5F221E24E4700014464F /* RodinAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RodinAppUITests.m; sourceTree = "<group>"; };
+		186A5F241E24E4700014464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186A5F301E24F5EB0014464F /* WEBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEBViewController.h; sourceTree = "<group>"; };
+		186A5F311E24F5EB0014464F /* WEBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEBViewController.m; sourceTree = "<group>"; };
+		18FDACD51E27B74E002D70D0 /* 404.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 404.html; path = errorpages/404.html; sourceTree = "<group>"; };
+		18FDACD81E27B74E002D70D0 /* apple-touch-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon.png"; sourceTree = "<group>"; };
+		18FDACD91E27B74E002D70D0 /* browserconfig.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = browserconfig.xml; sourceTree = "<group>"; };
+		18FDACDA1E27B74E002D70D0 /* favicon-16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favicon-16x16.png"; sourceTree = "<group>"; };
+		18FDACDB1E27B74E002D70D0 /* favicon-32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favicon-32x32.png"; sourceTree = "<group>"; };
+		18FDACDC1E27B74E002D70D0 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		18FDACDD1E27B74E002D70D0 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		18FDACDE1E27B74E002D70D0 /* mstile-150x150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mstile-150x150.png"; sourceTree = "<group>"; };
+		18FDACDF1E27B74E002D70D0 /* safari-pinned-tab.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "safari-pinned-tab.svg"; sourceTree = "<group>"; };
+		18FDACE91E27BBA1002D70D0 /* nointernet.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = nointernet.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		186A5EF71E24E46F0014464F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186A5F101E24E4700014464F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186A5F1B1E24E4700014464F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186A5EF11E24E46F0014464F = {
+			isa = PBXGroup;
+			children = (
+				186A5EFC1E24E4700014464F /* RodinApp */,
+				186A5F161E24E4700014464F /* RodinAppTests */,
+				186A5F211E24E4700014464F /* RodinAppUITests */,
+				186A5EFB1E24E4700014464F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		186A5EFB1E24E4700014464F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186A5EFA1E24E4700014464F /* RodinApp.app */,
+				186A5F131E24E4700014464F /* RodinAppTests.xctest */,
+				186A5F1E1E24E4700014464F /* RodinAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		186A5EFC1E24E4700014464F /* RodinApp */ = {
+			isa = PBXGroup;
+			children = (
+				18FDACE91E27BBA1002D70D0 /* nointernet.html */,
+				18FDACD51E27B74E002D70D0 /* 404.html */,
+				18FDACD61E27B74E002D70D0 /* images */,
+				186A5F001E24E4700014464F /* AppDelegate.h */,
+				186A5F011E24E4700014464F /* AppDelegate.m */,
+				186A5F061E24E4700014464F /* Main.storyboard */,
+				186A5F091E24E4700014464F /* Assets.xcassets */,
+				186A5F0B1E24E4700014464F /* LaunchScreen.storyboard */,
+				186A5F0E1E24E4700014464F /* Info.plist */,
+				186A5EFD1E24E4700014464F /* Supporting Files */,
+				186A5F301E24F5EB0014464F /* WEBViewController.h */,
+				186A5F311E24F5EB0014464F /* WEBViewController.m */,
+			);
+			path = RodinApp;
+			sourceTree = "<group>";
+		};
+		186A5EFD1E24E4700014464F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				186A5EFE1E24E4700014464F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		186A5F161E24E4700014464F /* RodinAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				186A5F171E24E4700014464F /* RodinAppTests.m */,
+				186A5F191E24E4700014464F /* Info.plist */,
+			);
+			path = RodinAppTests;
+			sourceTree = "<group>";
+		};
+		186A5F211E24E4700014464F /* RodinAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				186A5F221E24E4700014464F /* RodinAppUITests.m */,
+				186A5F241E24E4700014464F /* Info.plist */,
+			);
+			path = RodinAppUITests;
+			sourceTree = "<group>";
+		};
+		18FDACD61E27B74E002D70D0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				18FDACD71E27B74E002D70D0 /* favicon */,
+			);
+			name = images;
+			path = errorpages/images;
+			sourceTree = "<group>";
+		};
+		18FDACD71E27B74E002D70D0 /* favicon */ = {
+			isa = PBXGroup;
+			children = (
+				18FDACD81E27B74E002D70D0 /* apple-touch-icon.png */,
+				18FDACD91E27B74E002D70D0 /* browserconfig.xml */,
+				18FDACDA1E27B74E002D70D0 /* favicon-16x16.png */,
+				18FDACDB1E27B74E002D70D0 /* favicon-32x32.png */,
+				18FDACDC1E27B74E002D70D0 /* favicon.ico */,
+				18FDACDD1E27B74E002D70D0 /* manifest.json */,
+				18FDACDE1E27B74E002D70D0 /* mstile-150x150.png */,
+				18FDACDF1E27B74E002D70D0 /* safari-pinned-tab.svg */,
+			);
+			path = favicon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		186A5EF91E24E46F0014464F /* RodinApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186A5F271E24E4700014464F /* Build configuration list for PBXNativeTarget "RodinApp" */;
+			buildPhases = (
+				186A5EF61E24E46F0014464F /* Sources */,
+				186A5EF71E24E46F0014464F /* Frameworks */,
+				186A5EF81E24E46F0014464F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RodinApp;
+			productName = RodinApp;
+			productReference = 186A5EFA1E24E4700014464F /* RodinApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		186A5F121E24E4700014464F /* RodinAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186A5F2A1E24E4700014464F /* Build configuration list for PBXNativeTarget "RodinAppTests" */;
+			buildPhases = (
+				186A5F0F1E24E4700014464F /* Sources */,
+				186A5F101E24E4700014464F /* Frameworks */,
+				186A5F111E24E4700014464F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186A5F151E24E4700014464F /* PBXTargetDependency */,
+			);
+			name = RodinAppTests;
+			productName = RodinAppTests;
+			productReference = 186A5F131E24E4700014464F /* RodinAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		186A5F1D1E24E4700014464F /* RodinAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186A5F2D1E24E4700014464F /* Build configuration list for PBXNativeTarget "RodinAppUITests" */;
+			buildPhases = (
+				186A5F1A1E24E4700014464F /* Sources */,
+				186A5F1B1E24E4700014464F /* Frameworks */,
+				186A5F1C1E24E4700014464F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186A5F201E24E4700014464F /* PBXTargetDependency */,
+			);
+			name = RodinAppUITests;
+			productName = RodinAppUITests;
+			productReference = 186A5F1E1E24E4700014464F /* RodinAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		186A5EF21E24E46F0014464F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Rodin;
+				TargetAttributes = {
+					186A5EF91E24E46F0014464F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9SAHKHCPNQ;
+						ProvisioningStyle = Automatic;
+					};
+					186A5F121E24E4700014464F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 186A5EF91E24E46F0014464F;
+					};
+					186A5F1D1E24E4700014464F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 186A5EF91E24E46F0014464F;
+					};
+				};
+			};
+			buildConfigurationList = 186A5EF51E24E46F0014464F /* Build configuration list for PBXProject "RodinApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 186A5EF11E24E46F0014464F;
+			productRefGroup = 186A5EFB1E24E4700014464F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				186A5EF91E24E46F0014464F /* RodinApp */,
+				186A5F121E24E4700014464F /* RodinAppTests */,
+				186A5F1D1E24E4700014464F /* RodinAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186A5EF81E24E46F0014464F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FDACEA1E27BBA1002D70D0 /* nointernet.html in Resources */,
+				18FDACE81E27B74E002D70D0 /* safari-pinned-tab.svg in Resources */,
+				186A5F0D1E24E4700014464F /* LaunchScreen.storyboard in Resources */,
+				18FDACE41E27B74E002D70D0 /* favicon-32x32.png in Resources */,
+				18FDACE61E27B74E002D70D0 /* manifest.json in Resources */,
+				18FDACE51E27B74E002D70D0 /* favicon.ico in Resources */,
+				18FDACE31E27B74E002D70D0 /* favicon-16x16.png in Resources */,
+				186A5F0A1E24E4700014464F /* Assets.xcassets in Resources */,
+				18FDACE11E27B74E002D70D0 /* apple-touch-icon.png in Resources */,
+				186A5F081E24E4700014464F /* Main.storyboard in Resources */,
+				18FDACE21E27B74E002D70D0 /* browserconfig.xml in Resources */,
+				18FDACE01E27B74E002D70D0 /* 404.html in Resources */,
+				18FDACE71E27B74E002D70D0 /* mstile-150x150.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186A5F111E24E4700014464F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186A5F1C1E24E4700014464F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186A5EF61E24E46F0014464F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186A5F021E24E4700014464F /* AppDelegate.m in Sources */,
+				186A5EFF1E24E4700014464F /* main.m in Sources */,
+				186A5F321E24F5EB0014464F /* WEBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186A5F0F1E24E4700014464F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186A5F181E24E4700014464F /* RodinAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186A5F1A1E24E4700014464F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186A5F231E24E4700014464F /* RodinAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		186A5F151E24E4700014464F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186A5EF91E24E46F0014464F /* RodinApp */;
+			targetProxy = 186A5F141E24E4700014464F /* PBXContainerItemProxy */;
+		};
+		186A5F201E24E4700014464F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186A5EF91E24E46F0014464F /* RodinApp */;
+			targetProxy = 186A5F1F1E24E4700014464F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		186A5F061E24E4700014464F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186A5F071E24E4700014464F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		186A5F0B1E24E4700014464F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186A5F0C1E24E4700014464F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		186A5F251E24E4700014464F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		186A5F261E24E4700014464F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		186A5F281E24E4700014464F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9SAHKHCPNQ;
+				INFOPLIST_FILE = RodinApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.rodin.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		186A5F291E24E4700014464F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9SAHKHCPNQ;
+				INFOPLIST_FILE = RodinApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.rodin.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		186A5F2B1E24E4700014464F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RodinAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gor.RodinAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RodinApp.app/RodinApp";
+			};
+			name = Debug;
+		};
+		186A5F2C1E24E4700014464F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RodinAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gor.RodinAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RodinApp.app/RodinApp";
+			};
+			name = Release;
+		};
+		186A5F2E1E24E4700014464F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RodinAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gor.RodinAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RodinApp;
+			};
+			name = Debug;
+		};
+		186A5F2F1E24E4700014464F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RodinAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gor.RodinAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RodinApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		186A5EF51E24E46F0014464F /* Build configuration list for PBXProject "RodinApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186A5F251E24E4700014464F /* Debug */,
+				186A5F261E24E4700014464F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186A5F271E24E4700014464F /* Build configuration list for PBXNativeTarget "RodinApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186A5F281E24E4700014464F /* Debug */,
+				186A5F291E24E4700014464F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186A5F2A1E24E4700014464F /* Build configuration list for PBXNativeTarget "RodinAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186A5F2B1E24E4700014464F /* Debug */,
+				186A5F2C1E24E4700014464F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186A5F2D1E24E4700014464F /* Build configuration list for PBXNativeTarget "RodinAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186A5F2E1E24E4700014464F /* Debug */,
+				186A5F2F1E24E4700014464F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 186A5EF21E24E46F0014464F /* Project object */;
+}
